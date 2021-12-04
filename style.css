@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+.--mr {
+  margin-right: 0.5rem !important;
+}
+
+.--mr-2 {
+  margin-right: 1rem !important;
+}
+
+.logo {
+  width: 192px;
+}
+
+.logosmall {
+  height: 48px;
+  display: none;
+}
+
+.money {
+  color: #26a17b;
+}
+
+.usdt {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .logosmall {
+    display: block;
+  }
+  .d-none-mobile {
+    display: none;
+  }
+}
+
+.dropdown-item {
+  color: black !important;
+}
+
+.recommended {
+  padding: 0.25rem 1rem !important;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f8f8fa;
+}
+
+.navbar a:hover {
+  color: #406cde;
+}
+
+header {
+  background: url("./assets/background-gpu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header .container {
+  padding: 1rem 0rem 5rem 0rem !important;
+}
+
+section .container {
+  padding: 5rem 0rem !important;
+}
+
+img.feature-icon {
+  width: 64px;
+  height: 64px;
+}
+
+#features img {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bg-light-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(12%, #edf6ff), color-stop(34%, #f9fcff), color-stop(73%, #f7fbff));
+  background: linear-gradient(180deg, #edf6ff 12%, #f9fcff 34%, #f7fbff 73%);
+}
+
+.bg-accent {
+  background-color: #406cde !important;
+  color: white;
+}
+
+.bg-accent.gradient {
+  background: linear-gradient(128deg, dodgerblue 0%, #1e4095 100%) !important;
+}
+
+.bg-accent p {
+  font-weight: 200 !important;
+}
+
+.bg-dark {
+  background-color: #0d122f !important;
+  color: #dddddd !important;
+}
+
+.bg-dark p {
+  color: #898eae !important;
+  font-weight: 200 !important;
+}
+
+.bg-dark a.nav-link {
+  color: #898eae !important;
+  padding: 0 !important;
+}
+
+.bg-dark a.nav-link:hover {
+  color: #406cde !important;
+}
+
+.font-dark .container p {
+  color: #898eae !important;
+  font-weight: 200 !important;
+}
+
+.font-dark .container a.nav-link {
+  color: #898eae !important;
+  padding: 0 !important;
+}
+
+.font-dark .container a.nav-link:hover {
+  color: #406cde !important;
+}
+
+.bg-light-accent {
+  background-color: #edf6ff;
+}
+
+.bg-light-accent p {
+  color: #898eae !important;
+  font-weight: 200 !important;
+}
+
+.bg-light {
+  background-color: #f8f8fa;
+}
+
+.bg-light p {
+  color: #898eae !important;
+  font-weight: 300 !important;
+}
+
+.package {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-bottom: 1rem;
+}
+
+.accent {
+  color: #406cde !important;
+}
+
+.border-accent {
+  border: 1px solid #406cde;
+}
+
+html {
+  font-size: 160.5%;
+}
+
+/*16px*/
+body {
+  background: white;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-family: 'Poppins';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Rajdhani, sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h1.xl {
+  font-size: 7rem !important;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small, .text_small {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 993px) {
+  .benefit {
+    padding-right: 4rem !important;
+  }
+}
+
+.benefit {
+  margin-bottom: 2rem;
+}
+
+.benefit img {
+  margin-bottom: 1rem;
+}
+
+a.btn-primary:hover {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
